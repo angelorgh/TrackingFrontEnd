@@ -8,23 +8,29 @@ class Sidebar extends Component {
         <div className="sidebar-wrapper">
             <div className="logo">
                 <Link to='/' className="simple-text">
-                    Simple Dashboard
+                    Tracking App
                 </Link>
             </div>
             <ul className="nav">
                 <li className="nav-item">
                     <NavLink className="nav-link" to='/dashboard'>
                         <i className="nc-icon nc-char-pie-35"></i>
-                        <p>Dashboard</p>
+                        <p>Tablero Admin</p>
+                    </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to='/orderhistory'>
+                        <i className=""></i>
+                        <p>Historial de Ordenes</p>
                     </NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to='/profile'>
-                        <i className="nc-icon nc-circle-09"></i>
+                        <i className=""></i>
                         <p>User Profile</p>
                     </NavLink>
                 </li>
-                
+
             </ul>
         </div>
     </div>

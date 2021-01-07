@@ -25,7 +25,7 @@ class Dashboard extends Component {
                   <MapSection location={location} zoomLevel={17} />
                   </div>
                   <div className="stats">
-                    <i className="fa fa-clock-o"></i> Campaign sent 2 days ago
+                    <i className="fa fa-clock-o"></i>
                   </div>
                 </div>
               </div>
@@ -36,15 +36,40 @@ class Dashboard extends Component {
                   <h4 className="card-title">Ordenes Activas</h4>
                 </div>
                 <div className="card-body ">
-                </div>
-                <div className="card-footer ">
-                  <div className="legend">
-                    <i className="fa fa-circle text-info"></i> Open
-                    <i className="fa fa-circle text-danger"></i> Click
-                    <i className="fa fa-circle text-warning"></i> Click Second Time
-                </div>
-                  <div className="stats">
-                    <i className="fa fa-history"></i> Updated 3 minutes ago
+                  <div class="col">
+                    <div class="card shadow border-left-primary py-2">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Orden #190389120</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"><span class="text-success">Entregado</span></div>
+                                </div>
+                                {/* <div class="col-auto"><i class="fas fa-info-circle border-danger fa-2x text-gray-300"></i></div> */}
+                            </div><span>16/5/2021</span>
+                        </div>
+                    </div>
+                    <div class="card shadow border-left-primary py-2">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Orden #75443532</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"><span class="text-warning">Procesando</span></div>
+                                </div>
+                                {/* <div class="col-auto"><i class="fas fa-info-circle fa-2x text-gray-300"></i></div> */}
+                            </div><span>21/5/2021</span>
+                        </div>
+                    </div>
+                    <div class="card shadow border-left-primary py-2">
+                        <div class="card-body">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col mr-2">
+                                    <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>Orden #54642341</span></div>
+                                    <div class="text-dark font-weight-bold h5 mb-0"><span class="text-info">En Camino</span></div>
+                                </div>
+                                {/* <div class="col-auto"><i class="fas fa-info-circle fa-2x text-gray-300"></i></div> */}
+                            </div><span>22/5/2021</span>
+                        </div>
+                    </div>
                   </div>
                 </div>
               </div>
